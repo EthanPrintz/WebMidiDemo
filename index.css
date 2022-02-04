@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;   
+    background-color: #333533; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+*{box-sizing: border-box;}
+
+#buttons{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #b1b6b3;
+    font-weight: 700;
+}
+#buttons a{
+    text-decoration: none;
+    color: #cfdbd5;
+    font-weight: 700;
+}
+#buttons a:hover{
+    color: #f5cb5c;
+}
+
+#pianoContainer{
+    width: 38vmin;
+    height: 60vmin;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+}
+.whiteKey{
+    height: 100%;
+    width: 48%;
+    background-color: #e8eddf;
+    border-radius: 2vmin;
+    cursor: pointer;
+}
+.whiteKey:hover{
+    background-color: #d1d5ca;
+}
+.whiteKey:active{
+    background-color: #f5cb5c;
+}
+.blackKey{
+    position: absolute;
+    left: 41%;
+    top: 0%;
+    width: 18%;
+    height: 60%;
+    background-color: #242423;
+    border-bottom-right-radius: 1vmin;
+    border-bottom-left-radius: 1vmin;
+    cursor: pointer;
+}
+.blackKey:hover{
+    background-color: #1f1f1f;
+}
+.blackKey:active{
+    background-color: #f5cb5c;
+}
