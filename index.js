@@ -17,7 +17,7 @@ function onMidiEnabled(){
         kd.addEventListener("mousedown", () => {
             sendMidiMessage(midiKeys[i], channel)
         }, false)
-        // Send stopping key (64/E4) on mouseup or out
+        // Send stopping key (63/Eb4) on mouseup or out
         kd.addEventListener("mouseup", () => {
             stopMidiMessage(channel)
         }, false)
@@ -32,5 +32,5 @@ function sendMidiMessage(note, channel){
 }
 
 function stopMidiMessage(channel){
-    channel.playNote("E4")
+    channel.playNote("Eb4")
 }
