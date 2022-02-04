@@ -35,7 +35,7 @@ function onMidiEnabled(){
 
 function noteReceived(note, noteText, synth){
     // If it receives the stopping note (59/B3)
-    if(note === "B3"){
+    if(note === "E4"){
         // Update HTML
         noteText.innerHTML =  ""
         // Release synth note

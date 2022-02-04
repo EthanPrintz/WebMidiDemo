@@ -32,5 +32,5 @@ function sendMidiMessage(note, channel){
 }
 
 function stopMidiMessage(channel){
-    channel.playNote("B3")
+    channel.playNote("E4")
 }
