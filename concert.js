@@ -33,6 +33,7 @@ function onMidiEnabled(){
     })
 }
 
+// Called after note received
 function noteReceived(note, noteText, synth){
     // If it receives the stopping note (59/B3)
     if(note === "E4"){
