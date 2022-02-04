@@ -29,6 +29,18 @@ html,body{
     color: #f5cb5c;
 }
 
+#source{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #cfdbd5;
+    font-weight: 800;
+    text-decoration: none;
+}
+#source:hover{
+    color: #f5cb5c;
+}
+
 #pianoContainer{
     width: 38vmin;
     height: 60vmin;
